@@ -14,43 +14,44 @@ export default function Home() {
           Códigos de Hamming y Códigos de Golay
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Códigos de Hamming &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.
-              
-            </p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Códigos de Golay &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!
+          <a href="https://codigoshamming.vercel.app/" className={styles.card}>
+            <h2>Códigos de Hamming &rarr;</h2>
+            <p>Actualmente, los códigos de Hamming son fundamentales en la teoría de la codificación y tienen una gran 
+              cantidad de aplicaciones prácticas.
 
             </p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Demostraciones &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.
+          <a href="https://golay.vercel.app/" className={styles.card}>
+            <h2>Códigos de Golay &rarr;</h2>
+            <p>En las matemáticas y en la informática el código binario de Golay es un tipo de código correctorde 
+              errores usado en las comunicaciones digitales.
 
             </p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://demostraciones-chi.vercel.app/"
             className={styles.card}
           >
-            <h3>Ejemplos en Matlab&rarr;</h3>
+            <h2>Demostraciones &rarr;</h2>
+            <p>G<sub>24</sub> tiene distancia mínima 8.
+            </p>
+            <p>Todas las palabras de G<sub>24</sub> tienen peso mínimo de 4.
+            </p>
+          </a>
+
+          <a
+            href="https://ejemplos.vercel.app/"
+            className={styles.card}
+          >
+            <h2>Ejemplos en Matlab&rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Ejemplos de Códigos de Hamming.
+            </p>
+            <p>
+            Ejemplos de Códigos de Golay.
             </p>
           </a>
         </div>
